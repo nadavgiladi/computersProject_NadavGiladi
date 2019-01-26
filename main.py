@@ -158,7 +158,7 @@ def weighted_averages(data_dict):
         sum_squared_y = sum_squared_y + sum_squared_y[index] ** 2
         sum_squared_dy = sum_squared_dy + dy[index] ** 2
         sum_x_times_y = sum_x_times_y + sum_x_times_y[index] ** 2
-    
+
     return
 
 
